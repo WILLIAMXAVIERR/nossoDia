@@ -159,5 +159,32 @@ button {
   transform: scale(1.05);
   color: #ff5e9c;
 }
+.galeria {
+  text-align: center;
+  padding: 40px 20px;
+}
 
-} 
+.galeria h2 {
+  font-size: 2em;
+  color: #b84c8a;
+  margin-bottom: 20px;
+}
+
+.imagens-simples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagens-simples img {
+  width: 250px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.imagens-simples img:hover {
+  transform: scale(1.05);
+}
+}
